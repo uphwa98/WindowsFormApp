@@ -1,0 +1,10 @@
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+F:\CertiStudy\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+F:\CertiStudy\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+F:\CertiStudy\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+F:\CertiStudy\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
