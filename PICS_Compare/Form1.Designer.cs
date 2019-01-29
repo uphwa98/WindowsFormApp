@@ -38,6 +38,7 @@ namespace PICS_Compare
             this.result_textBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.run_button = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // te_textBox
@@ -105,11 +106,19 @@ namespace PICS_Compare
             this.run_button.UseVisualStyleBackColor = true;
             this.run_button.Click += new System.EventHandler(this.run_button_Click);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(598, 89);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(169, 23);
+            this.progressBar1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.run_button);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.result_textBox);
@@ -133,6 +142,7 @@ namespace PICS_Compare
         private System.Windows.Forms.TextBox result_textBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button run_button;
+        private ProgressBar progressBar1;
     }
 }
 

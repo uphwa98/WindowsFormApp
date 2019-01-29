@@ -25,6 +25,12 @@ namespace PICS_Compare
             worker.DoWork += new DoWorkEventHandler(worker_DoWork);
             worker.ProgressChanged += new ProgressChangedEventHandler(worker_ProgressChanged);
             worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(worker_RunWorkerCompleted);
+
+            //progressBar1.Style = ProgressBarStyle.Marquee;
+            progressBar1.Enabled = false;
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = 100;
+            progressBar1.Value = 0;
         }
 
         private void te_textBox_DragEnter(object sender, DragEventArgs e)
@@ -69,6 +75,9 @@ namespace PICS_Compare
             result_textBox.Text += te_textBox.Text + "\r\n";
             result_textBox.Text += pics_textBox.Text;
 
+            progressBar1.Enabled = true;
+            progressBar1.Value = 0;
+
             worker.RunWorkerAsync();
         }
 
@@ -76,13 +85,16 @@ namespace PICS_Compare
         void worker_DoWork(object sender, DoWorkEventArgs e)
         {
             int pct;
-            string[] players = new string[10];
+            string[] players = new string[100];
             int counter = 0;
+
+            progressBar1.Step = 100 / players.Length;
+
             foreach (var fi in players)
             {
                 pct = ((++counter * 100) / players.Length);
                 worker.ReportProgress(pct);
-                Thread.Sleep(1000);
+                Thread.Sleep(100);
             }
         }
 
@@ -91,6 +103,7 @@ namespace PICS_Compare
         {
             //this.progressBar1.Value = e.ProgressPercentage;
             result_textBox.Text = "" + e.ProgressPercentage;
+            progressBar1.PerformStep();
         }
 
         // 작업 완료 - UI Thread
