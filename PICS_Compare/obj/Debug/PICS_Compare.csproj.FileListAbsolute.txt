@@ -1,0 +1,10 @@
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\bin\Debug\PICS_Compare.exe.config
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\bin\Debug\PICS_Compare.exe
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\bin\Debug\PICS_Compare.pdb
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.csprojResolveAssemblyReference.cache
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.Form1.resources
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.Properties.Resources.resources
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.csproj.GenerateResource.cache
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.csproj.CoreCompileInputs.cache
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.exe
+F:\CertiStudy\WindowsFormsApp\PICS_Compare\obj\Debug\PICS_Compare.pdb
